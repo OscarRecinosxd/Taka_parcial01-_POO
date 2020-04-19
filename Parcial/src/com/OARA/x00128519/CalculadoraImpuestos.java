@@ -22,8 +22,8 @@ package com.OARA.x00128519;
             totalAFP = 0.0625 * (empleado.getSalario());
             totalISSS = 0.03 * (empleado.getSalario());
             Restante=(empleado.getSalario())-totalAFP-totalISSS;
-
             if(Restante >= 0.01 && Restante <= 472){
+                System.out.println("HOLA");
                 return Restante;
             }
             else if(Restante >= 472.01 && Restante <= 895.24){
